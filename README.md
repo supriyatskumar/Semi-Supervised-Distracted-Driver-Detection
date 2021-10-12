@@ -13,7 +13,7 @@ This project is to recognize and correctly classify different forms of distracte
 
 ## Dataset
 The dataset is from State-Farm and published at https://www.kaggle.com/c/state-farm-distracted-driver-detection/data<br />
-Training set ~22.4 K and 79.7 K unlabeled test samples. It consists of images of driver doing 1 of 10 actions listed below.<br />
+There are 22.4 K labelled and 79.7 K unlabeled samples. It consists of images of driver doing 1 of 10 actions listed below.<br />
 10 classes(driver actions):
 1. safe driving
 2. texting - right
