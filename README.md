@@ -25,3 +25,21 @@ There are 22.4 K labelled and 79.7 K unlabeled samples. It consists of images of
 8. reaching behind
 9. hair and makeup
 10. talking to passenger
+
+
+## Machine Learning Problem Statement 
+This is a multi-class image classification problem. Given the labelled and unlabelled 2D images, classify an image into one of 10 classes to identify driver distraction.
+
+## Approach
+In this project we use a Semi-supervised Generative Adversarial Network (SGAN) to utilize the available large set of unlabeled data samples along with labeled data to train the model.
+SGAN: is a modified version of GAN architecture. It trains a supervised discriminator, unsupervised discriminator and a generator model at the same time.<br />
+ Supervised discriminator: Trained using real images with labels to predict the class labels<br />
+ Unsupervised discriminator: Trained using unlabeled real images and generated fake images. This is similar to traditional GAN, which is used to predict real or fake sample.
+
+## Result
+
+## Evaluation Metric (KPI)
+Accuracy<br />
+Precision<br />
+Recall<br />
+AUPRC<br />
