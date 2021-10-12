@@ -33,13 +33,10 @@ This is a multi-class image classification problem. Given the labelled and unlab
 ## Approach
 In this project a Semi-supervised Generative Adversarial Network (SGAN) is used to utilize the available large set of unlabeled data samples along with labeled data to train the model.<br />
 SGAN: is a modified version of GAN architecture. It trains a supervised discriminator, unsupervised discriminator and a generator model at the same time.<br />
- Supervised discriminator: Trained using real images with labels to predict the class labels<br />
- Unsupervised discriminator: Trained using unlabeled real images and generated fake images. This is similar to traditional GAN, which is used to predict real or fake sample.
+* Supervised discriminator: Trained using real images with labels to predict the class labels<br />
+* Unsupervised discriminator: Trained using unlabeled real images and generated fake images. This is similar to traditional GAN, which is used to predict real or fake sample.
 
 ## Result
 
 ## Evaluation Metric (KPI)
-Accuracy<br />
-Precision<br />
-Recall<br />
-AUPRC<br />
+Accuracy
