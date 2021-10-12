@@ -9,7 +9,7 @@ This project is to classify different forms of distracted driving using 2D dashb
 
 ### Use Case
 * The trained model can be used by OEMs to improve auto safety.
-* semi-supervised image classification reduces the cost of collecting expensive labelled data.
+* The semi-supervised image classification reduces the cost of collecting expensive labelled data.
 
 ## Dataset
 The dataset is from State-Farm and published at https://www.kaggle.com/c/state-farm-distracted-driver-detection/data<br />
