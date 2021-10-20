@@ -36,7 +36,8 @@ SGAN: is a modified version of GAN architecture. It trains a supervised discrimi
 * Supervised discriminator: Trained using real images with labels to predict the class labels<br />
 * Unsupervised discriminator: Trained using unlabeled real images and generated fake images. This is similar to traditional GAN, which is used to predict real or fake sample.
 
-## Result
-
 ## Evaluation Metric (KPI)
 Accuracy
+
+## Result
+This project successfully builds a Semi-supervised GAN based model to classify distracted driver images into 10 classes, using just ~15000 labeled images and 40000 unlabeled images. The experimental results show that Semi-supervised approach yields an evaluation accuracy of 94.7%.
