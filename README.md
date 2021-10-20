@@ -40,4 +40,4 @@ SGAN: is a modified version of GAN architecture. It trains a supervised discrimi
 Accuracy
 
 ## Result
-This project successfully builds a Semi-supervised GAN based model to classify distracted driver images into 10 classes, using just 15000 labeled images and 40000 unlabeled images. The experimental results show that Semi-supervised approach yields an evaluation accuracy of 94.7%. 
+This project successfully builds a Semi-supervised GAN based model to classify distracted driver images into 10 classes, using just 15000 labeled images and 40000 unlabeled images. The experimental results show that Semi-supervised approach yields an evaluation accuracy of 94.7%. accuracy
